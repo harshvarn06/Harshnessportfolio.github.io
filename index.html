@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Harsh - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Shalimar&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: o;
+            padding: 0;
+        }
+
+        body {
+            /* background-color: rgb(0, 0, 33); */
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(40, 128, 128);
+
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: antiquewhite;
+        }
+
+        nav ul li a:hover {
+            color: pink;
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(32, 170, 235);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            /* background-color: red; */
+            text-align: center;
+            font-size: 1.4rem;
+            /* margin: 200px 0; */
+
+        }
+        .leftsection .btn{
+            padding: 12px;
+            background-color: blueviolet;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            margin: 10px 9px;
+
+        }
+
+        .leftsection .btn a{
+            text-decoration: none;
+            color: antiquewhite;
+        }
+
+        .rightsection {
+            width: 25%;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+            border-radius: 30px;
+        }
+
+        .purple {
+            color: blueviolet;
+            font-size: 4.0rem;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Shalimar', cursive;
+        }
+
+        .text-gray {
+            color: blueviolet;
+            font-size: 1rem;
+        }
+
+        #element {
+            color: blueviolet;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Shalimar', cursive;
+            font-size: 4.0rem;
+        }
+
+        .secondSection {
+            max-width: 80vh;
+            margin: 0 290px;
+            height: 60vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 69vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 161px;
+        }
+
+        .image-top {
+            width: 45px;
+            position: relative;
+            top: -49px;
+            left: -22px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 43px;
+            width: 150px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 50px;
+            color: grey;
+            width: 260px;
+            font-size: 15px;
+
+        }
+
+        .footer{
+            background-color: rgb(40, 128, 128);
+            /* height: 133px; */
+        }
+        .footer{
+            display: flex; 
+            /* margin: 123px 122px; */
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+
+        }
+        .footer>div{
+            width: 223px;
+        }
+        .footer-rights{
+            text-align: center;
+            background-color: rgb(40, 128, 128);
+            color: black;
+            padding: 12px 0;
+        }
+
+       /* .footer .footer-Second ul a{
+            text-decoration: none;
+        } */
+        @media screen and  (max-width:600px) {
+            /* font-size: 36px;
+            line-height: 50px; */
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Harsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                "Hello, I'm <span class="purple"> Harshvarn Patel </span>
+                <div>
+                    A passionate web developer with a creative mindset and a keen eye for detail.
+                </div> <span id="element"></span>
+                <div class="button">
+                    <button class="btn"><a href="HV.pdf.pdf" target="_Harsh">Download Resume</a></button>
+                    <button class="btn"><a href="https://www.linkedin.com/feed/">Visit Linkedin </a></button>
+                </div>
+            </div> 
+            <dev class="rightsection">
+                <img src="pngitem1.png" alt="">
+
+            </dev>
+        </section>
+
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"> What I Done So Far</span>
+            <h1>Work Experience</h1>
+            <!-- 1 -->
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="webD.png" alt="">
+                    <div class="vertical-title">
+                        Web Development (2022-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Collaborate with designers, front end developers, and other team members to convert design
+                        mockups into functional HTML pages. Implement responsive design principles to ensure websites
+                        work well on various devices and screen sizes.
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="vertical">
+                    <img class="image-top" src="react.js.png" alt="">
+                    <div class="vertical-title">
+                        React.js Developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        As a React.js developer, you'll be responsible for building interactive and dynamic user
+                        interfaces for web applications. Your work experience may include.
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="vertical">
+                    <img class="image-top" src="python.png" alt="">
+                    <div class="vertical-title">
+                        Python Developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Gain proficiency in Python's syntax, data types, and control structures. Understand how to
+                        declare variables, write loops, and use conditional statements to control program flow.
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="vertical">
+                    <img class="image-top" src="vs code.png" alt="">
+                    <div class="vertical-title">
+                        Visual Studio (2022-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Skilled in using Visual Studio on Windows platform for coding and development.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- <hr> -->
+    </main>
+    <footer>
+        <div class="footer"> 
+             <div class="footer-first">
+                <h3>Harsh,s Developer Portfolio</h3>
+             </div>
+             <div class="footer-Second">
+<ul>
+                    <li>Email:harshvarn06@gmail.com</li>
+                    <li>For Any Enquiry: At- Kairapari, Po- Kotsahi (Tangi), Dist- Cuttack, Pin - 754022 Kairapari Cuttack Odisha India.</li>
+                    <li>PhoneNo: 7870077886</li>
+                </ul>
+</ul>
+             </div>
+             <!-- <div class="footer-Third">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+             </div>
+             <div class="footer-Fourth">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+             </div> -->
+
+        </div>
+        <div class="footer-rights">
+            Copyright&#169; www.harshportfolio.com | All right reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'UX/UI Designer', 'Python Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
+
+
+<!-- Internship: Indian Railway PLW[Punjab][20/07/22 ]-[22/08/2022/]Internship Project: Analyzing and Assembling Engine
+and Locomotive Parts - Collaborated with a teamof engineers to analyze, assemble, and test engine and locomotive
+components -Utilized problem-solving skills to troubleshoot and diagnosemechanical issues - Contributed to the
+enhancement of locomotive performance and efficiency -Gained practical experience in engineering processes and
+quality control -->
